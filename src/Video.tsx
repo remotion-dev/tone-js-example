@@ -1,16 +1,16 @@
 import {Composition} from 'remotion';
-import {MyComposition} from './Composition';
+import ToneJS from './ToneJS';
 
 export const RemotionVideo: React.FC = () => {
 	return (
 		<>
 			<Composition
-				id="Empty"
-				component={MyComposition}
-				durationInFrames={60}
+				id="tone"
+				component={ToneJS}
+				durationInFrames={550}
 				fps={30}
-				width={1280}
-				height={720}
+				width={1080}
+				height={1080}
 			/>
 		</>
 	);
