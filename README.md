@@ -1,12 +1,6 @@
-# Remotion video
+# Tone.JS X Remotion
 
-<p align="center">
-  <a href="https://github.com/remotion-dev/logo">
-    <img src="https://github.com/remotion-dev/logo/raw/main/withtitle/element-0.png">
-  </a>
-</p>
-
-Welcome to your Remotion project!
+https://user-images.githubusercontent.com/1629785/150182821-67241528-8bb2-4c50-89b2-5acf0984735e.mp4
 
 ## Commands
 
