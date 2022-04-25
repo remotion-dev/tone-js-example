@@ -85,7 +85,7 @@ export const ToneJS: React.FC = () => {
 			const synth = new Tone.Synth().toDestination();
 			const now = Tone.now();
 			let accumulatedTime = 0;
-			notesSequence.map((sequenceItem) => {
+			notesSequence.forEach((sequenceItem) => {
 				accumulatedTime += Tone.Time(sequenceItem.duration).toSeconds();
 				synth.triggerAttackRelease(
 					sequenceItem.note,
