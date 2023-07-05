@@ -138,7 +138,7 @@ export const ToneJS: React.FC = () => {
 				backgroundColor: 'white',
 			}}
 		>
-			<Sequence durationInFrames={450} from={0}>
+			<Sequence durationInFrames={450}>
 				<AbsoluteFill
 					style={{
 						justifyContent: 'center',
